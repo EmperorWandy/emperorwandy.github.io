@@ -1,0 +1,10 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "io.github.emperorwandy.reset31",
+    "sha256_cert_fingerprints": [
+      "E7:88:2D:E8:BF:7A:00:C8:70:CD:27:F9:9C:7D:D8:E7:23:60:D6:39:63:7E:24:7E:2F:84:7F:AA:36:D4:31:AF"
+    ]
+  }
+}]
