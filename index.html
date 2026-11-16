@@ -29,6 +29,11 @@ li{margin:4px 0}
 .card p{margin:6px 0}
 a{color:#ffb13d}
 .muted{color:var(--mute);font-size:14px}
+.shots{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;padding:4px 2px 12px;margin:10px -18px 0;padding-left:18px;padding-right:18px;-webkit-overflow-scrolling:touch}
+.shots figure{flex:0 0 62%;max-width:240px;margin:0;scroll-snap-align:start}
+.shots img{display:block;width:100%;height:auto;aspect-ratio:9/16;border-radius:16px;border:1px solid var(--line);background:var(--card)}
+.hint{font-size:13px;color:var(--mute);margin:0}
+@media (min-width:720px){.shots{display:grid;grid-template-columns:repeat(3,1fr);overflow:visible;margin:10px 0 0;padding:0}.shots figure{max-width:none}.hint{display:none}}
 footer{margin-top:34px;color:var(--mute);font-size:13px;border-top:1px solid var(--line);padding-top:14px}
 </style>
 </head>
@@ -48,6 +53,17 @@ footer{margin-top:34px;color:var(--mute);font-size:13px;border-top:1px solid var
       <a class="btn w" href="/31-day-reset/">Open 31-Day Reset</a>
       <a class="btn o" href="/31-day-reset/get/">Get the Android app</a>
     </div>
+  </div>
+
+  <h2>See it in action</h2>
+  <p class="hint">Swipe to see more.</p>
+  <div class="shots">
+    <figure><img src="/img/screen-1.jpg" width="540" height="960" loading="lazy" alt="Your daily coach: today's day, progress and the workout to start"></figure>
+    <figure><img src="/img/screen-2.jpg" width="540" height="960" loading="lazy" alt="Pick one of five goals, each with its own fixed 31-day plan"></figure>
+    <figure><img src="/img/screen-3.jpg" width="540" height="960" loading="lazy" alt="A guided workout with a timer and a moving demonstration"></figure>
+    <figure><img src="/img/screen-4.jpg" width="540" height="960" loading="lazy" alt="Today's workout and evening habit, with step-by-step instructions"></figure>
+    <figure><img src="/img/screen-5.jpg" width="540" height="960" loading="lazy" alt="All 31 days at a glance, with badges and your streak"></figure>
+    <figure><img src="/img/screen-6.jpg" width="540" height="960" loading="lazy" alt="A new badge, ready to share on WhatsApp"></figure>
   </div>
 
   <h2>What the app does</h2>
